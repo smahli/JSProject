@@ -12,8 +12,9 @@ html {
 }
 
 body {
-  font-family: 'Nunito', sans-serif;
-  font-weight: 400;
+   background-size: cover;
+   background-position: center;
+  font-family:sans-serif;
   height: 100vh;
   color: #333;
   background-image: linear-gradient(to top left, #753682 0%, #bf2e34 100%);
@@ -36,7 +37,7 @@ main {
   display: flex;
 }
 
-.player {
+.wrapper-clearfix {
   flex: 50%;
   padding: 9rem;
   display: flex;
